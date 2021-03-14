@@ -3,7 +3,13 @@ from __future__ import print_function
 from __future__ import absolute_import
 __author__ = 'Tony Beltramelli - www.tonybeltramelli.com'
 
+## PREVENTS TF GPU USAGE LOCALLY ##
+import os
+os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
+
 import tensorflow as tf
+import tensorflow.compat.v1 as tf
+tf.disable_v2_behavior()
 sess = tf.Session(config=tf.ConfigProto(log_device_placement=True))
 
 import sys
