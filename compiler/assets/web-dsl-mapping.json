@@ -1,18 +1,23 @@
 {
   "opening-tag": "{",
   "closing-tag": "}",
-  "body": "<html>\n  <header>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css\" integrity=\"sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u\" crossorigin=\"anonymous\">\n<link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css\" integrity=\"sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp\" crossorigin=\"anonymous\">\n<style>\n.header{margin:20px 0}nav ul.nav-pills li{background-color:#333;border-radius:4px;margin-right:10px}.col-lg-3{width:24%;margin-right:1.333333%}.col-lg-6{width:49%;margin-right:2%}.col-lg-12,.col-lg-3,.col-lg-6{margin-bottom:20px;border-radius:6px;background-color:#f5f5f5;padding:20px}.row .col-lg-3:last-child,.row .col-lg-6:last-child{margin-right:0}footer{padding:20px 0;text-align:center;border-top:1px solid #bbb}\n</style>\n    <title>Scaffold</title>\n  </header>\n  <body>\n    <main class=\"container\">\n      {}\n      <footer class=\"footer\">\n        <p>&copy; Tony Beltramelli 2017</p>\n      </footer>\n    </main>\n    <script src=\"js/jquery.min.js\"></script>\n    <script src=\"js/bootstrap.min.js\"></script>\n  </body>\n</html>\n",
-  "header": "<div class=\"header clearfix\">\n  <nav>\n    <ul class=\"nav nav-pills pull-left\">\n      {}\n    </ul>\n  </nav>\n</div>\n",
-  "btn-active": "<li class=\"active\"><a href=\"#\">[]</a></li>\n",
-  "btn-inactive": "<li><a href=\"#\">[]</a></li>\n",
+  "body": "<html>\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css\" integrity=\"sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l\" crossorigin=\"anonymous\">\n<style>\n.col-lg-12,.col-lg-3,.col-lg-6,.col-lg-4{margin-bottom:0px;border-radius:6px;padding:20px}footer{padding:20px 0;text-align:center;border-top:1px solid #bbb}\n</style>\n<title>Dataset Randomizer</title>\n<script src=\"https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js\" integrity=\"sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==\" crossorigin=\"anonymous\"></script>\n<script src=\"html2canvas.js\"></script>\n</head>\n<body>\n<div class=\"container-fluid\">\n{}\n<footer class=\"footer\">\n<p>Luca Bruno 2020. Based off of &copy; Tony Beltramelli 2017.</p>\n</footer>\n</div>\n</body>\n</html>\n",
+  "navbar-light": "<nav class=\"navbar navbar-expand-lg navbar-light bg-light\">\n{}\n</nav>",
+  "navbar-dark": "<nav class=\"navbar navbar-expand-lg navbar-dark bg-dark\">\n{}\n</nav>",
+  "brand": "<a class=\"navbar-brand\" href=\"#\"> []</a>",
+  "navbar": "<div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n<ul class=\"navbar-nav mr-auto\">{}\n</ul>\n</div>",
+  "nav-active": "<li class=\"nav-item active\"><a class=\"nav-link\" href=\"#\">[]</a></li>\n",
+  "nav-inactive": "<li class=\"nav-item inactive\"><a class=\"nav-link\" href=\"#\">[]</a></li>\n",
   "row": "<div class=\"row\">{}</div>\n",
   "single": "<div class=\"col-lg-12\">\n{}\n</div>\n",
   "double": "<div class=\"col-lg-6\">\n{}\n</div>\n",
+  "triple": "<div class=\"col-lg-4\">\n{}\n</div>\n",
   "quadruple": "<div class=\"col-lg-3\">\n{}\n</div>\n",
   "btn-green": "<a class=\"btn btn-success\" href=\"#\" role=\"button\">[]</a>\n",
-  "btn-orange": "<a class=\"btn btn-warning\" href=\"#\" role=\"button\">[]</a>\n",
+  "btn-yellow": "<a class=\"btn btn-warning\" href=\"#\" role=\"button\">[]</a>\n",
   "btn-red": "<a class=\"btn btn-danger\" href=\"#\" role=\"button\">[]</a>",
   "big-title": "<h2>[]</h2>",
   "small-title": "<h4>[]</h4>",
-  "text": "<p>[]</p>\n"
-}
+  "text": "<p>[]</p>\n",
+  "":"<div>{}</div>"
+}  

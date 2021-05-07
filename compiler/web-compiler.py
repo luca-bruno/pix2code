@@ -29,6 +29,12 @@ def render_content_with_text(key, value):
     if FILL_WITH_RANDOM_TEXT:
         if key.find("btn") != -1:
             value = value.replace(TEXT_PLACE_HOLDER, Utils.get_random_text())
+        elif key.find("nav") != -1: 
+            value = value.replace(TEXT_PLACE_HOLDER, Utils.get_random_text())
+            # nav random text added
+        elif key.find("brand") != -1: 
+            value = value.replace(TEXT_PLACE_HOLDER, Utils.get_random_text())
+            # brand random text added
         elif key.find("title") != -1:
             value = value.replace(TEXT_PLACE_HOLDER, Utils.get_random_text(length_text=5, space_number=0))
         elif key.find("text") != -1:
